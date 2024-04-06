@@ -17,8 +17,8 @@ async fn main() {
                 let request_id = request
                     .extensions()
                     .get::<RequestId>()
-                    .map(ToString::to_string)
-                    .unwrap_or_else(|| "unknown".into());
+                    .map(RequestId::as_str)
+                    .unwrap_or("unknown");
                 // And then we put it along with other information into the `request` span
                 error_span!(
                     "request",
