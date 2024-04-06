@@ -1,12 +1,12 @@
 [package]
-name = "tower-request-id"
-version = "0.3.0"
+name = "tower-request-id-nano"
+version = "0.1.0"
 edition = "2021"
 description = "A tower (hyper, axum, warp) service to add a unique id for every request"
 keywords = ["tower", "hyper", "axum", "warp"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/imbolc/tower-request-id"
+repository = "https://github.com/ciffelia/tower-request-id-nano"
 
 [dependencies]
 http = "1"

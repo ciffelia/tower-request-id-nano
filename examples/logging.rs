@@ -1,7 +1,7 @@
 use axum::{body::Body, routing::get, Router};
 use http::Request;
 use tower_http::trace::TraceLayer;
-use tower_request_id::{RequestId, RequestIdLayer};
+use tower_request_id_nano::{RequestId, RequestIdLayer};
 use tracing::{error_span, info, Level};
 
 #[tokio::main]
