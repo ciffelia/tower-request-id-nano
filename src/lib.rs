@@ -15,9 +15,12 @@
 //! [`Request.extensions()`]: https://docs.rs/http/0.2.5/http/request/struct.Request.html#method.extensions
 //! [logging example]: https://github.com/imbolc/tower-request-id/blob/main/examples/logging.rs
 
+use std::{
+    fmt,
+    task::{Context, Poll},
+};
+
 use http::Request;
-use std::fmt;
-use std::task::{Context, Poll};
 use tower_layer::Layer;
 use tower_service::Service;
 use ulid::Ulid;
