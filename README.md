@@ -1,4 +1,4 @@
-# tower-request-id
+# tower-request-id-nano
 
 A tiny [tower] ([hyper], [axum], [warp] etc) service to generate a random id for each
 incoming request.
