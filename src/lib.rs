@@ -29,7 +29,7 @@ impl RequestId {
     }
 
     pub fn as_str(&self) -> &str {
-        self.0.as_ref()
+        self.0.as_str()
     }
 }
 

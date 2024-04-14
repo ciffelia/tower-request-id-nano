@@ -360,9 +360,9 @@ dependencies = [
 
 [[package]]
 name = "nid"
-version = "2.0.0"
+version = "3.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f59412cbc974c0e5db6a03034080c02f6639e51b8f8866016753cd0d983f4688"
+checksum = "4abdf1789932b85dc39446e27f45a1064a30f9e19a2b872b1d09bd59283f85f3"
 dependencies = [
  "rand",
  "thiserror",

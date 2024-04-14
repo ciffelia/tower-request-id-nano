@@ -13,7 +13,7 @@ exclude = ["/.github", "/.gitignore"]
 http = "1"
 tower-layer = "0.3"
 tower-service = "0.3"
-nid = "2"
+nid = "3"
 
 [dev-dependencies]
 axum = "0.7"
